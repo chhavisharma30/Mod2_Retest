@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  background-color: #8a7ef7; 
+  overflow: hidden;
+  padding: 10px; 
+}
+
+.navbar a {
+  float: left; 
+  display: block; 
+  color: white; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+  font-size: 17px; 
+}
+
+.navbar a:hover {
+  background-color: #ddd; 
+  color: black; 
+}
+
+.navbar a:first-child {
+  font-weight: bold; 
+}
+
+
+.navbar a:nth-child(2), .navbar a:nth-child(3) {
+  float: right; 
+}
+
+a {
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Delete button styles */
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
